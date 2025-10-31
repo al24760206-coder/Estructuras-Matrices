@@ -54,7 +54,7 @@ int romano_a_arabico (const char *roman_str){
 
         if (i + 1 < tamano){
             int siguienteValor = romano_a_int(roman_str[i + 1]);
-
+            
             if (valorActual < siguienteValor){
                 total += (siguienteValor - valorActual);
                 i++;
